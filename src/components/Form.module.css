@@ -1,0 +1,98 @@
+
+.myForm {
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #42484d;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+.myForm input {
+    border: none;   
+    border-radius: 4px;  
+    height: 40px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 17px;
+}
+.myForm p {
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+.myForm p:first-child {
+    margin-top: 0px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.buttons button:first-child {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.buttons button:last-child {
+    background-color: #00c46a;
+    color: black;
+    padding: 10px 20px;
+    /* border: 1px solid white; */
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 4px;
+}
+:global(.react-datepicker-wrapper) {
+  width: 100%;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+.cityTitle {
+  
+  padding-left: 10px;
+}
+.note {
+    padding-left: 10px;
+
+}
+.datePickerInput {
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.notCity {
+    width: 70%;
+    color: rgb(230,230,230);
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}

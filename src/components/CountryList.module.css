@@ -1,0 +1,25 @@
+.countriesContainer  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: 100px 100px 100px; */
+    /* grid-template-rows: repeat(auto-fill, 103px); */
+    justify-content: center;
+    gap: 20px;
+    margin: 0px 20px;
+    width: 50%;
+    /* margin-top: 20px; */
+    color: rgb(230,230,230);
+    font-weight: 500;
+}
+.emptySidebar {
+    color: rgb(230,230,230);
+    text-align: center;
+    font-weight: 500; 
+    font-size: 18px;
+}
+
+.countriesContainerWidth {
+    width: 100%;
+    padding: 0px 40px;
+
+}

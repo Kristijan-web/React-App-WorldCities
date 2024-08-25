@@ -1,0 +1,66 @@
+.city {
+    display: flex;
+    align-items: center;
+    background-color: #42484d;
+    width: 100%;
+    height: 50px;
+    gap: 15px;
+    padding: 20px;
+    margin-bottom: 15px;  
+    border-radius: 4px;  
+    color: rgb(220,220,220);
+    cursor: pointer;
+}
+.city p:nth-child(2) {
+    margin-right: auto;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+.sakri {
+    opacity: 0;
+    position: absolute
+}
+.closeBtn {
+    /* width: 100px;
+    height: auto; */
+    font-size: 25px;
+    /* background-color: black; */
+    border-radius: 50%;
+    height: 2rem;
+    aspect-ratio: 1;
+    text-align: center;
+}
+.closeBtn:hover {
+    background-color: rgb(215, 50, 50);
+    border-radius: 50%;
+}
+/* .cityWidth {
+    width: 80%;
+
+} */
+.li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.liMain {
+    padding: 0px 20px;
+}

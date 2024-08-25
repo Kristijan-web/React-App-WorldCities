@@ -1,0 +1,57 @@
+.map {
+    width: 100%;
+    height: 100%;
+}
+.popup {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    padding: 10px;
+}
+.cityName {
+    color: rgb(230,230,230);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 !important;
+}
+.flag {
+    /* width: 50%; */
+    height: 40px;
+}
+:global(.leaflet-popup-content-wrapper) {
+    display: inline-block;
+    background-color: #2d3439 !important;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border-radius: 4px !important;
+}
+:global(.leaflet-popup-content) {
+    margin: 0 !important;
+    /* width: 200px; */
+    /* padding-right: 35px; */
+}
+.sakri {
+    opacity: 0;
+    position: absolute;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
