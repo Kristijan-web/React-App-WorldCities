@@ -1,8 +1,9 @@
 # React + Vite
-link to the project: https://reactworldcities.netlify.app/
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+World Cities App is a website for tracking the cities & countries you visited. 
 
-Currently, two official plugins are available:
+It was build using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Leaflet library
+-Context API + useReducer
+-React Router
+  
